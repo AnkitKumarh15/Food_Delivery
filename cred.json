@@ -1,0 +1,35 @@
+[
+    {
+    "restaurantName" : "Delhi Restro",
+    "restaurantImage" : "Delhi_Restro_Image",
+    "details" :{
+        "address" : "sector 24",
+        "contact" :3456 ,
+        "rating": "3 star"
+    },
+    "foodItems":{
+        "veg":[
+            {
+                "id" : 1,
+                "name" : "rice",
+                "price":300,
+                "quantity":"300gm"
+            },
+            {
+                "id" : 2,
+                "name" : "daal",
+                "price" : 200,
+                "quantity" : "100gm"
+          }
+        ],
+        "nonveg":[
+            {
+                "id" : 3,
+                "name" : "fish",
+                "price" : "150",
+                "quantity" : "1 piece"
+            }
+        ]
+    }
+}
+]

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in/Sign up</title>
+</head>
+<body>
+    <h1>Log in</h1>
+    <div id="login">
+        <input type="text" id="login-email" placeholder="Username or Emal id"><br>
+        <input type="password" id="login-pass" placeholder="Password"><br>
+        <button onclick="login()">Log In</button>
+    </div>
+
+    <h1>Forgot in</h1>
+    <div id="forgotpass">
+        <input type="text" id="forgot-email" placeholder="Username or Emal id"><br>
+        <input type="number" id="forgot-phone" placeholder="Phone Number"><br>
+        <input type="password" id="new-pass" placeholder="New Password"><br>
+        <button onclick="forgotpass()">Reset Password</button>
+    </div>
+
+    <h1>Sign up</h1>
+    <div id="signup">
+        <input type="text" id="fullname" placeholder="Full name"><br>
+        <input type="email" id="mail" placeholder="Email id"><br>
+        <input type="number" id="phone" placeholder="Phone Number"><br>
+        <input type="password" id="createpass" placeholder="Create Password"><br>
+        <input type="text" id="add" placeholder="Address">
+        <button onclick="signup()">Sign Up</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
